@@ -182,14 +182,14 @@ body {
     align-items: center;
     position: relative;
     z-index: 10; }
-  @media only screen and (max-width: 56.25em) {
-    .side-nav__link {
-      justify-content: center;
-      padding: 2rem; } }
-  @media only screen and (max-width: 37.5em) {
-    .side-nav__link {
-      flex-direction: column;
-      padding: 1.5rem 0.5rem; } }
+    @media only screen and (max-width: 56.25em) {
+      .side-nav__link:link, .side-nav__link:visited {
+        justify-content: center;
+        padding: 2rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .side-nav__link:link, .side-nav__link:visited {
+        flex-direction: column;
+        padding: 1.5rem 0.5rem; } }
   .side-nav__icon {
     width: 1.75rem;
     height: 1.75rem;
