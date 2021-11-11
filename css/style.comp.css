@@ -146,7 +146,8 @@ body {
   @media only screen and (max-width: 56.25em) {
     .side-nav {
       display: flex;
-      margin: 0; } }
+      margin: 0;
+      font-size: 0.9rem; } }
   .side-nav__item {
     position: relative; }
     .side-nav__item:not(:last-child) {
